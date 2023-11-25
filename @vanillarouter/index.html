@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Vanilla Router</title>
+    <script defer type="module" src="js/index.js"></script>
+    <style>
+      html,
+      body {
+        margin: 0;
+      }
+
+      body {
+        padding-left: 1rem;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      main {
+        display: grid;
+        grid-template-columns: 10rem 1fr;
+        gap: 1rem;
+      }
+
+      aside {
+        border-right: 2px solid #ddd;
+      }
+
+      aside ul {
+        list-style: none;
+      }
+
+      aside ul li {
+        padding: 0.3rem;
+      }
+
+      footer {
+        position: fixed;
+        bottom: 1rem;
+        width: 100%;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Vanilla Router</h1>
+    <main>
+      <aside>
+        <a href="/">Home</a>
+        <a href="/products">Products</a>
+        <a href="/products/451/details">HC 23i</a>
+        <a href="/about">About</a>
+        <a href="/missing">Missing route</a>
+      </aside>
+      <section></section>
+    </main>
+  </body>
+</html>

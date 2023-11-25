@@ -1,0 +1,152 @@
+{
+  "name": "hattharatanam",
+  "short_name": "hattharatanam",
+  "theme_color": "#c9a40150",
+  "background_color": "#c9a40150",
+  "display": "standalone",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "icons": [
+    {
+      "src": "./assets/favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "./assets/logo-48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "./assets/logo-72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "./assets/logo-96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "./assets/logo-128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "./assets/logo-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./assets/logo-384.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "./assets/logo-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "./assets/logo-maskable.png",
+      "type": "image/png",
+      "sizes": "1024x1024",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./assets/logo.png",
+      "type": "image/png",
+      "sizes": "1024x1024",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Home page",
+      "short_name": "Home",
+      "description": "Go to Home page",
+      "url": "./",
+      "icons": [
+        {
+          "src": "./assets/logo.svg",
+          "type": "image/svg+xml",
+          "sizes": "150x150"
+        }
+      ]
+    },
+    {
+      "name": "About page",
+      "short_name": "About",
+      "description": "Go to About page",
+      "url": "./about",
+      "icons": [
+        {
+          "src": "./assets/logo.svg",
+          "type": "image/svg+xml",
+          "sizes": "150x150"
+        }
+      ]
+    },
+    {
+      "name": "Contact page",
+      "short_name": "Contact",
+      "description": "Go to Contact page",
+      "url": "./contact",
+      "icons": [
+        {
+          "src": "./assets/logo.svg",
+          "type": "image/svg+xml",
+          "sizes": "150x150"
+        }
+      ]
+    }
+  ],
+  "categories": ["tipiṭaka", "pāḷi", "canon", "scripture"],
+  "description": "'hattharatanaṃ' means a precious Jewels of the Hand that contain the Buddha's teachings and salvation that are important and of daily use.",
+  "screenshots": [
+    {
+      "src": "./assets/screen-desktop.png",
+      "type": "image/png",
+      "sizes": "1920x1080",
+      "label": "Desktop",
+      "form_factor": "wide"
+    },
+    {
+      "src": "./assets/screen-laptop.png",
+      "type": "image/png",
+      "sizes": "1366x768",
+      "label": "Laptop",
+      "form_factor": "wide"
+    },
+    {
+      "src": "./assets/screen-tablet.png",
+      "type": "image/png",
+      "sizes": "768x1024",
+      "label": "Tablet",
+      "form_factor": "wide"
+    },
+    {
+      "src": "./assets/screen-mobile.png",
+      "type": "image/png",
+      "sizes": "360x720",
+      "label": "Mobile",
+      "form_factor": "wide"
+    },
+    {
+      "src": "./assets/screen-splash.png",
+      "type": "image/png",
+      "sizes": "1080x2123",
+      "label": "Splashscreen",
+      "form_factor": "narrow"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "play",
+      "id": "com.hattharatanam.app",
+      "min_version": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.hattharatanam.app"
+    }
+  ]
+}
